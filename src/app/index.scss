@@ -5,10 +5,19 @@
 // bower:scss
 // endbower
 
+@import "./check-in/check-in";
+@import "./encounters/encounters";
+@import "./report/report";
+@import "./report/report-filed";
+
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
 
 $red-color: #ed4343;
 $red-font: 'Roboto Slab', serif;
+
+* {
+  box-sizing: border-box;
+}
 
 html, body {
   width:100%;
@@ -30,7 +39,7 @@ html, body {
 }
 
 .welcome {
-	
+
 	height: 100vh;
 
 	display:flex;
@@ -40,7 +49,7 @@ html, body {
 
 	img { width: 42%; }
   h1  { text-align:center; }
-  
+
 }
 
 /**

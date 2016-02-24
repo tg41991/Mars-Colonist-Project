@@ -1,0 +1,39 @@
+.check-in {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.register-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+
+.button {
+  border: none;
+  background: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.button, input {
+  width: 100%;
+  color: white;
+}

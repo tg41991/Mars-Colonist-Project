@@ -7,7 +7,6 @@
 
   /** @ngInject */
   function MainController($scope) {
-      this.online = true;
       $scope.description = 'Angular Seed Application';
   }
 
