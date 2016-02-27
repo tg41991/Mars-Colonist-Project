@@ -1,0 +1,93 @@
+
+[ui-view].ng-enter, [ui-view].ng-leave {
+  transition: all 1s ease;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+[ui-view].ng-enter {
+  .home-container & {
+    opacity: 0;
+    left: 500px;
+  }
+
+  .check-in-container & {
+    opacity: 0;
+    left: 500px;
+  }
+
+  .encounters-container & {
+    opacity: 0;
+    left: 500px;
+  }
+
+  .report-container & {
+    opacity: 0;
+    left: 500px;
+  }
+}
+
+[ui-view].ng-enter-active {
+  .home-container & {
+    opacity: 1;
+    left: 0;
+  }
+  .check-in-container & {
+    opacity: 1;
+    left: 0;
+  }
+
+  .encounters-container & {
+    opacity: 1;
+    left: 0;
+  }
+
+  .report-container & {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+[ui-view].ng-leave {
+  .home-container & {
+    opacity: 1;
+    left: 0;
+  }
+
+  .check-in-container & {
+    opacity: 1;
+    left: 0;
+  }
+
+  .encounters-container & {
+    opacity: 1;
+    left: 0;
+  }
+
+  .report-container & {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+[ui-view].ng-leave-active {
+  .home-container & {
+    opacity: 0;
+    left: 500px;
+  }
+  .check-in-container & {
+    opacity: 0;
+    left: 500px;
+  }
+
+  .encounters-container & {
+    opacity: 0;
+    left: 500px;
+  }
+
+  .report-container & {
+    opacity: 0;
+    left: 500px;
+  }
+}

@@ -6,8 +6,15 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope) {
+  function MainController($scope, $state) {
       $scope.description = 'Angular Seed Application';
-  }
+
+      $scope.enter = function(event){
+        event.preventDefault();
+
+        $state.go('check-in');
+  };
+
+}
 
 })();

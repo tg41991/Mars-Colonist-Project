@@ -1,10 +1,13 @@
 
 <div class="check-in">
-  <h1>Register</h1>
-  <form class="register-form">
-    <input type="text" placeholder="Name"></input>
-    <input type="text" placeholder="Age"></input>
-    <select>Select occupation</select>
+  <h1 class="pageheader">Register</h1>
+  <form action="" class="register-form" name="checkIn" ng-class="{'validate' : validate}" >
+    <input type="text" placeholder="Name" ng-model="colonist.name" required/>
+    <input type="number" placeholder="Age" ng-model="colonist.age" required/>
+    <select name="jobs" id="jobs" ng-model="colonist.job_id" ng-change="checkValid()" required>
+      <option value=""> Select occupation </option>
+      <option value="{{job.id}}" ng-repeat="job in jobs">{{job.name}}</option>
+    </select>
   </form>
-  <button class="button">Check in</button>
+  <button class="button" ng-click="login($event)">Check in</button>
 </div>

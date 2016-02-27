@@ -3,8 +3,13 @@
   <h1 class="page-head">Encounters
     <span>See something. Say something</span>
   </h1>
-  <ul></ul>
+  <ul>
+    <li ng-repeat="report in encounters">{{report.date}} - {{report.atype}}
+      <br>
+      {{report.action}}
+    </li>
+  </ul>
   <footer>
-    <button>Report Encounter</button>
+    <button class="reportit" ng-click="writereport($event)">Report Encounter</button>
   </footer>
 </div>
