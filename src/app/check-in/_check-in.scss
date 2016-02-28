@@ -46,11 +46,15 @@ input {
 }
 
 .validate {
-  input, select, textarea {
+  input, select, textarea, .alien-select, {
     &.ng-invalid {
   animation: border-pulse 1s infinite;
 }
 }
+}
+
+input::placeholder {
+  color:red;
 }
 
 select {
@@ -61,10 +65,6 @@ select {
   background: none;
   color: red;
   font-size: 1rem;
-}
-
-input::placeholder {
-  color:red;
 }
 
 .button {
