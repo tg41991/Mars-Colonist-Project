@@ -1,19 +1,5 @@
-## AngularJS - Seed application
+# Mars Colonist Project
 
-This repository contains the basic application scaffold for **Project 4**. <br>
-It is based on the [generator-angular](https://github.com/yeoman/generator-angular)  application boilerplate.
+A single page app for colonists of Mars to report their encounters with alien life forms. Users can check-in, select the alien type, and write a brief report of their interaction, and are able to view past reports. It was built out using HTML & CSS, AngularJS and jQuery, Sass and Gulp.
 
-To install this project on your computer:
-
-Step 1 : Create a directory for on your computer and clone this repository:
-
-	git clone https://github.com/redacademy/angular-project.git .
-    
-Step 2 : From the project's root directory, install the project dependencies:
-	
-    npm install && bower install
-    
-Step 3 : The project should now be installed. Start the local development server by typing:
-
-	gulp serve
-
+Using Angular was more intuitive than React when being used for the first time. Although it made the HTML markup busier it demonstrates which elements are being targeted and for what purpose. It was easier to see the flow of information between pages using GET and POST requests.

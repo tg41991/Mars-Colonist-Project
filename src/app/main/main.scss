@@ -6,23 +6,69 @@
 
 @keyframes pulse {
   0% {
-  background: rgba(174, 219, 228, 0.9);
+  box-shadow: 0 0 0 0 rgba(0,0,0, 0),
+              0 0 0 0 rgba(0,0,0, 0),
+              0 0 0 0 rgba(0,0,0, 0),
   }
 
-  25% {
-  background: rgba(136, 202, 215, 0.9);
+  10% {
+    box-shadow: 0 0 0 .1rem rgba(0,0,0, 0.1),
+                0 0 0 .2rem rgba(0,0,0, 0.2),
+                0 0 0 .3rem rgba(0,0,0, 0.3),
+  }
+
+  20% {
+    box-shadow: 0 0 0 .2rem rgba(0,0,0, 0.2),
+                0 0 0 .4rem rgba(0,0,0, 0.3),
+                0 0 0 .6rem rgba(0,0,0, 0.4),
+  }
+
+  30% {
+    box-shadow: 0 0 0 .4rem rgba(0,0,0, 0.3),
+                0 0 0 .8rem rgba(0,0,0, 0.4),
+                0 0 0 1.2rem rgba(0,0,0, 0.5),
+  }
+
+  40% {
+    box-shadow: 0 0 0 .8rem rgba(0,0,0, 0.4),
+                0 0 0 1.6rem rgba(0,0,0, 0.5),
+                0 0 0 2.4rem rgba(0,0,0, 0.6),
   }
 
   50% {
-  background: rgba(98, 185, 202, 0.9);
+    box-shadow: 0 0 0 1.6rem rgba(0,0,0, 0.5),
+                0 0 0 3.2rem rgba(0,0,0, 0.6),
+                0 0 0 4.8rem rgba(0,0,0, 0.7),
   }
 
-  75% {
-  background: rgba(62, 166, 187, 0.9);
+  60% {
+    box-shadow: 0 0 0 .8rem rgba(0,0,0, 0.6),
+                0 0 0 1.6rem rgba(0,0,0, 0.7),
+                0 0 0 2.4rem rgba(0,0,0, 0.8),
+  }
+
+  70% {
+    box-shadow: 0 0 0 .4rem rgba(0,0,0, 0.7),
+                0 0 0 .8rem rgba(0,0,0, 0.8),
+                0 0 0 1.2rem rgba(0,0,0, 0.9),
+  }
+
+  80% {
+    box-shadow: 0 0 0 .2rem rgba(0,0,0, 0.8),
+                0 0 0 .4rem rgba(0,0,0, 0.9),
+                0 0 0 .6rem rgba(0,0,0, 1),
+  }
+
+  90% {
+    box-shadow: 0 0 0 .1rem rgba(0,0,0, 0.9),
+                0 0 0 .2rem rgba(0,0,0, 1),
+                0 0 0 .3rem rgba(0,0,0, 1.1),
   }
 
   100% {
-  background: rgba(49, 132, 149, 0.9);
+    box-shadow: 0 0 0 0 rgba(0,0,0, 0),
+                0 0 0 0 rgba(0,0,0, 0),
+                0 0 0 0 rgba(0,0,0, 0),
   }
 }
 
